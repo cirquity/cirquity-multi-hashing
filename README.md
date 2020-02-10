@@ -1,11 +1,5 @@
 ![image](https://cirquity.com/img/logo-small.png)
 
-#### Master Build Status
-[![Build Status](https://travis-ci.org/cirquity/cirquity-multi-hashing.svg?branch=master)](https://travis-ci.org/cirquity/cirquity-multi-hashing) [![Build status](https://ci.appveyor.com/api/projects/status/github/cirquity/cirquity-multi-hashing?branch=master&svg=true)](https://ci.appveyor.com/project/cirquity/cirquity-multi-hashing/branch/master)
-
-#### Development Build Status
-[![Build Status](https://travis-ci.org/cirquity/cirquity-multi-hashing.svg?branch=development)](https://travis-ci.org/cirquity/cirquity-multi-hashing) [![Build status](https://ci.appveyor.com/api/projects/status/github/cirquity/cirquity-multi-hashing?branch=development&svg=true)](https://ci.appveyor.com/project/cirquity/cirquity-multi-hashing/branch/development)
-
 # Cirquity multi hashing
 
 Cryptocurrency hashing functions for NodeJS
