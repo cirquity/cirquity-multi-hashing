@@ -1,14 +1,12 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image](https://cirquity.com/img/logo-small.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/node8-multi-hashing.svg?branch=master)](https://travis-ci.org/turtlecoin/node8-multi-hashing) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/node8-multi-hashing?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/node8-multi-hashing/branch/master)
+[![Build Status](https://travis-ci.org/cirquity/cirquity-multi-hashing.svg?branch=master)](https://travis-ci.org/cirquity/cirquity-multi-hashing) [![Build status](https://ci.appveyor.com/api/projects/status/github/cirquity/cirquity-multi-hashing?branch=master&svg=true)](https://ci.appveyor.com/project/cirquity/cirquity-multi-hashing/branch/master)
 
 #### Development Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/node8-multi-hashing.svg?branch=development)](https://travis-ci.org/turtlecoin/node8-multi-hashing) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/node8-multi-hashing?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/node8-multi-hashing/branch/development)
+[![Build Status](https://travis-ci.org/cirquity/cirquity-multi-hashing.svg?branch=development)](https://travis-ci.org/cirquity/cirquity-multi-hashing) [![Build status](https://ci.appveyor.com/api/projects/status/github/cirquity/cirquity-multi-hashing?branch=development&svg=true)](https://ci.appveyor.com/project/cirquity/cirquity-multi-hashing/branch/development)
 
-[![NPM](https://nodei.co/npm/turtlecoin-multi-hashing.png?downloads=true&stars=true)](https://nodei.co/npm/turtlecoin-multi-hashing/)
-
-# TurtleCoin-multi-hashing
+# Cirquity multi hashing
 
 Cryptocurrency hashing functions for NodeJS
 
@@ -44,13 +42,13 @@ Cryptocurrency hashing functions for NodeJS
 ```bash
 sudo apt-get nodejs nodejs-dev node-gyp npm
 sudo ln -s /usr/bin/nodejs /usr/bin/node
-npm install turtlecoin-multi-hashing
+npm install git+https://github.com/cirquity/cirquity-multi-hashing.git
 ```
 
 So far this native NodeJS addon can do the following hashing algorithms.
 
 ```javascript
-var multiHashing = require('turtlecoin-multi-hashing')
+var multiHashing = require('cirquity-multi-hashing')
 var Buffer = require('safe-buffer').Buffer
 
 var algorithms = ['quark', 'x11', 'scrypt', 'scryptn', 'scryptjane', 'keccak', 'bcrypt', 'skein', 'blake']
@@ -89,3 +87,4 @@ console.log(hashedData)
 * [codebling](https://github.com/codebling) CodeBling
 * [Monero](https://github.com/monero-project/monero) The Monero Project
 * [TurtleCoin](https://github.com/turtlecoin) TurtleCoin Developers
+* [Cirquity](https://github.com/cirquity) Cirquity Developers

@@ -1,6 +1,6 @@
 {
-    "name": "turtlecoin-multi-hashing",
-    "version": "0.0.19",
+    "name": "cirquity-multi-hashing",
+    "version": "0.0.1",
     "main": "multihashing",
     "gypfile": true,
     "author": {
@@ -8,12 +8,12 @@
         "email": "zone117x@gmail.com"
     },
     "contributors": [
-        "Brandon Lehmann <brandonlehmann@gmail.com>"
+        "Deeterd <deeterd@pm.me>"
     ],
     "license": "GPL-3.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/turtlecoin/node8-multi-hashing.git"
+        "url": "https://github.com/cirquity/cirquity-multi-hashing.git"
     },
     "scripts": {
         "test": "node-gyp clean && node-gyp configure && node-gyp build && node tests/cryptonight-tests.js && node tests/argon2-tests.js"

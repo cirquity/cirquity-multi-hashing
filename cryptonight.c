@@ -3,6 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 // Portions Copyright (c) 2018 The Monero developers
 // Portions Copyright (c) 2018 The TurtleCoin Developers
+// Portions Copyright (c) 2018 The Cirquity Developers
 
 #include <stdio.h>
 #include <stdlib.h>
