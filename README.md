@@ -27,6 +27,7 @@ Cryptocurrency hashing functions for NodeJS
 * cryptonight
 * cryptonight-fast
 * cryptonight-lite
+* cryptonight-turtle
 * boolberry
 
 ## Usage
